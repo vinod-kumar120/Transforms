@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            display:flex;
+            
+        
+            height: 500x;
+            width: 100%;
+
+            grid-template-areas: 'item1' 'item1' 'item1'
+                                    'item2' 'item2' 'item3'
+                                    'item4''item4''item4';
+        }
+        
+        
+        #im1:hover{
+            grid-area: item1;
+           transform: translate(100px);
+        }
+            #im2:hover{
+                grid-area: item2;
+                transform: rotate(45deg);
+            }
+            #im3:hover{
+                grid-area: item3;
+                transform:scale(2)
+            }
+            #im4:hover{
+                grid-area: item4;
+                transform: skew(30deg);
+            }
+
+
+            .container1{
+            display:flex;
+            
+        
+            height: 500x;
+            width: 100%;
+
+            grid-template-areas: 'item1' 'item1' 'item1'
+                                    'item2' 'item2' 'item3'
+                                    'item4''item4''item4';
+        }
+        
+        
+        #im5:hover{
+            grid-area: item1;
+           transform: translate(200px);
+        }
+            #im6:hover{
+                grid-area: item2;
+                transform: rotate(90deg);
+            }
+            #im7:hover{
+                grid-area: item3;
+                transform:scale(3)
+            }
+            #im8:hover{
+                grid-area: item4;
+                transform:perspective(100px)rotate(45deg);
+            }
+    
+    
+
+
+
+    </style>
+</head>
+<body>
+    <h4>2D TRANSFORMATIONS</h4>
+    <div class="container">
+       <div id="im1">
+        <img  src="grid1.jpeg">
+    </div>
+            <div id="im2">
+                <img  src="grid8.jpeg">
+            </div>
+               <div id="im3"><img id="im3" src="grid3.jpeg">
+               </div>
+                    <div id="im4"><img id="im4" src="grid4.jpeg">
+                    </div>
+                    </div>
+
+                    <br>
+                    <br>
+
+
+                    
+
+                    <h4>3D TRANSFORMATIONS</h4>
+                    <div class="container1">
+
+                        <div id="im5">
+                            <img  src="grid1.jpeg">
+                        </div>
+                                <div id="im6">
+                                    <img  src="grid8.jpeg">
+                                </div>
+                                   <div id="im7"><img src="grid3.jpeg">
+                                   </div>
+                                        <div  id="im8"><img src="grid4.jpeg">
+                                        </div>
+                                    </div>
+                                </body>
+                                </html>
+                                
